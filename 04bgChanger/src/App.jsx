@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import './App.css';
 function App() {
-  const colorList = ['Lightseagreen', 'Pink','Lightsteelblue', 'Teal', 'Mediumvioletred',   'Aqua', 'Darkseagreen'];
+  const colorList = ['Lightseagreen', 'Pink','Lightsteelblue', 'Teal', 'Mediumvioletred',   'Aqua', 'Darkseagreen','Seagreen','Palevioletred'];
   const [color, setColor] = useState(colorList[0])
   
 const setbgcolor = (color) =>{
+  
   setColor(color);
 }
   return (
